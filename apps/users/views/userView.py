@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from CRUD.models.user import User
-from CRUD.serializers.usuarioserializer import UserSerializer
+from usuers.models.user import User
+from usuers.serializers.usuarioserializer import UserSerializer
 
 class index(viewsets.ModelViewSet):
     serializer_class = UserSerializer
